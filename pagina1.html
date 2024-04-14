@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 1: México</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Estilos CSS para el menú de navegación */
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center; /* Alinea el texto del menú al centro */
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            color: lightgray;
+        }
+
+        /* Estilos CSS para el fondo naranja */
+        body {
+            background-color: orange;
+            margin: 0; /* Elimina el margen predeterminado del cuerpo */
+            padding: 0; /* Elimina el relleno predeterminado del cuerpo */
+        }
+
+        /* Estilos CSS para las imágenes apiladas */
+        img {
+            display: block; /* Hace que las imágenes sean elementos de bloque */
+            margin: 20px auto; /* Alinea las imágenes horizontalmente y agrega un margen superior e inferior */
+        }
+    </style>
+</head>
+<body>
+    <!-- Menú de navegación -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Página Principal</a></li>
+            <li><a href="pagina1.html" class="active">Página 1</a></li>
+            <li><a href="pagina2.html">Página 2</a></li>
+            <li><a href="pagina3.html">Página 3</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>¡Bienvenido a México!</h1>
+    
+        <p>México es un país lleno de historia, cultura y tradiciones. Desde las antiguas civilizaciones como los aztecas y los mayas, hasta la rica diversidad gastronómica y la belleza de sus paisajes naturales, México ofrece una experiencia única para sus visitantes.</p>
+    
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <img src="img/banderamex.png" alt="Imagen de México 1" class="img-fluid">
+                <img src="img/zocalo.jpg" alt="Imagen de México 2" class="img-fluid">
+                <img src="img/angel.jpg" alt="Imagen de México 3" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

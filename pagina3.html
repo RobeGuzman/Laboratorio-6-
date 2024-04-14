@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página</title>
+    <title>Página 3: Estados Unidos</title>
     <link rel="stylesheet" href="estilos.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
@@ -30,21 +30,14 @@
         }
 
         body {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh; 
-            background-color: #007bff; 
+            background-color: #87ceeb; 
             margin: 0; 
             padding: 0; 
         }
 
         img {
             display: block; 
-            margin-bottom: 20px; 
-            margin-left: auto; 
-            margin-right: auto; 
+            margin: 20px auto; 
         }
     </style>
 </head>
@@ -52,15 +45,26 @@
     <nav>
         <ul>
             <li><a href="index.html">Página Principal</a></li>
-            <li><a href="pagina1.html" class="active">Página 1</a></li>
+            <li><a href="pagina1.html">Página 1</a></li>
             <li><a href="pagina2.html">Página 2</a></li>
-            <li><a href="pagina3.html">Página 3</a></li>
+            <li><a href="pagina3.html" class="active">Página 3</a></li>
         </ul>
     </nav>
 
-    <h1>¡Bienvenido!</h1>
-    <img src="img/google.jpeg" alt="imagen de google" width="500">
+    <div class="container">
+        <h1>¡Bienvenido a Estados Unidos!</h1>
     
+        <p>Estados Unidos, una nación diversa y llena de oportunidades, es conocida por su influencia global, sus icónicas ciudades como Nueva York y Los Ángeles, y sus impresionantes parques nacionales. Desde la Estatua de la Libertad hasta el Gran Cañón, hay mucho que explorar en este vasto país.</p>
+    
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <img src="img/banderaeua.svg" alt="Imagen de Estados Unidos 1" width="700" class="img-fluid">
+                <img src="img/ny.jpg" alt="Imagen de Estados Unidos 2" class="img-fluid">
+                <img src="img/chicago.jpg" alt="Imagen de Estados Unidos 3" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página</title>
+    <title>Página 2: Canadá</title>
     <link rel="stylesheet" href="estilos.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
@@ -30,21 +30,14 @@
         }
 
         body {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh; 
-            background-color: #007bff; 
-            margin: 0; 
+            background-color: #c7a3ff; 
+            margin: 0;
             padding: 0; 
         }
 
         img {
             display: block; 
-            margin-bottom: 20px; 
-            margin-left: auto; 
-            margin-right: auto; 
+            margin: 20px auto; 
         }
     </style>
 </head>
@@ -52,15 +45,26 @@
     <nav>
         <ul>
             <li><a href="index.html">Página Principal</a></li>
-            <li><a href="pagina1.html" class="active">Página 1</a></li>
-            <li><a href="pagina2.html">Página 2</a></li>
+            <li><a href="pagina1.html">Página 1</a></li>
+            <li><a href="pagina2.html" class="active">Página 2</a></li>
             <li><a href="pagina3.html">Página 3</a></li>
         </ul>
     </nav>
 
-    <h1>¡Bienvenido!</h1>
-    <img src="img/google.jpeg" alt="imagen de google" width="500">
+    <div class="container">
+        <h1>¡Bienvenido a Canadá!</h1>
     
+        <p>Canadá, conocido por sus paisajes espectaculares, su gente amable y su alto nivel de vida, es uno de los destinos más populares para los viajeros de todo el mundo. Desde las majestuosas Montañas Rocosas hasta las vibrantes ciudades como Toronto y Vancouver, Canadá tiene algo para todos.</p>
+    
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <img src="img/banderacan.png" alt="Imagen de Canadá 1" class="img-fluid">
+                <img src="img/columbia.jpg" alt="Imagen de Canadá 2" class="img-fluid">
+                <img src="img/toronto.jpg" alt="Imagen de Canadá 3" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
